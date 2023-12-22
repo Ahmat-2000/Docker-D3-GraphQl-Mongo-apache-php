@@ -1,0 +1,17 @@
+{
+   "name": "graphqlmongo",
+   "version": "1.0.0",
+   "type": "module",
+   "description": "",
+   "main": "index.js",
+   "dependencies": {
+      "@apollo/server": "^4.9.5",
+      "graphql": "^16.8.1",
+      "mongodb": "^5.9.2"
+   },
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "author": "",
+   "license": "ISC"
+}

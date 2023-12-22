@@ -1,0 +1,46 @@
+type Prestation{
+     id: Int
+     description: String
+     sum: Int
+     count: Int
+     avg: Float
+}
+
+type Department{
+     nom: String
+     department: Int
+     sum: Int
+     count: Int
+     avg: Float
+}
+type Prestation2{
+     prestation_id: Int
+     description: String
+     sum: Int
+     count: Int
+     date: String
+     avg: Float
+}
+type Prestation3{
+     prestation_id: Int
+     description: String
+     sum: Int
+     count: Int
+     month: Int
+     avg: Float
+}
+type Region{
+     id: Int
+     nom:String
+     sum: Int
+     count: Int
+     avg: Float
+}
+type Query{
+     regions: [Region]  
+     prestations: [Prestation]
+     departments: [Department]
+     departmentById(departmentId : Int) : [Prestation]
+     departmentByIdForYear(departmentId : Int) : [Prestation2]
+     departmentByIdForMonth(departmentId : Int) : [Prestation3]
+}
