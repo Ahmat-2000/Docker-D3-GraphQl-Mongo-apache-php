@@ -92,6 +92,8 @@ Bienvenue dans le projet **Nom de Votre Projet**. Ce dépôt contient les source
 │   └── sequence.png
 └── Commande-utile.md
 ```
+
+### Description
 - **graphql/ : ** Contient les fichiers GraphQL et le code associé.
 - **ui/ : ** Contient le code source du front-end, y compris les fichiers HTML, CSS, JavaScript, et les données.
   - **data/ : ** Dossier pour stocker les données.
