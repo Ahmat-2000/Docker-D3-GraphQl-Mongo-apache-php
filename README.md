@@ -25,10 +25,13 @@ Ce projet est une application web de visualisation de données utilisant D3.js p
 
 1. **Cloner le Projet**
 2. **Configurer l'Environnement Docker**
+  ```bash
    docker-compose -f stack.yml up -d --build
-3. **Importer les Données dans MongoDB**
+  ```
+4. **Importer les Données dans MongoDB**
+   ```bash
    docker exec -i mongo-dev sh -c 'mongoimport -d bda -c sales --authenticationDatabase admin -u root -p example' < ui/data/sales.bson
-
+   ```
 ## Accéder à l'Application
 
 - **Front-end:** Ouvrez votre navigateur et allez à [http://localhost](http://localhost).
