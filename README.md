@@ -88,15 +88,16 @@ Bienvenue dans le projet **Nom de Votre Projet**. Ce dépôt contient les source
 │   ├── prestation.html
 │   ├── regions.html
 │   └── sequence.png
-└── utile.md
+└── Commande-utile.md
 ```
-- **graphql/:** Contient les fichiers GraphQL et le code associé.
-- **ui/:** Contient le code source du front-end, y compris les fichiers HTML, CSS, JavaScript, et les données.
-  - **data/:** Dossier pour stocker les données.
-  - **js/:** Dossier pour les scripts JavaScript.
-  - **css/:** Dossier pour les fichiers CSS.
-- **stack.yml:** Configuration Docker pour les conteneurs.
-- **utile.md:** Documentation ou informations utiles supplémentaires.
+- **graphql/ : ** Contient les fichiers GraphQL et le code associé.
+- **ui/ : ** Contient le code source du front-end, y compris les fichiers HTML, CSS, JavaScript, et les données.
+  - **data/ : ** Dossier pour stocker les données.
+  - **js/ : ** Dossier pour les scripts JavaScript.
+  - **css/ : ** Dossier pour les fichiers CSS.
+- **stack.yml : ** Configuration Docker pour les conteneurs.
+- - **Dockerfile : ** Configuration Docker pour les conteneurs.
+- **Commande-utile.md : ** Documentation ou informations utiles supplémentaires.
 
 ## Contribuer
 
