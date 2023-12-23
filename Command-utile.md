@@ -44,5 +44,6 @@ db.sales.aggregate([{ $match: { "address.department.id": 14 } }, { $group: { _id
 db.sales.aggregate([ { $match: { "address.department.id": 14 } }, { $group: { _id: { id: "$prestation.id", year: "$date.year" }, description: { $first: "$prestation.description" }, count: { $sum: 1 } } }, { $sort: { description: 1, "_id.year": 1 } }, { $project: { date: { $concat: [{ $toString: "$_id.year" }, "-00-00"] }, description: 1,count: 1, _id: 0 } }] );
 ```
 ## Trier par description puis par date 
+```bash
 db.sales.aggregate([ { $match: { "address.department.id": 14 } }, { $group: { _id: { id: "$prestation.id", year: "$date.year" }, description: { $first: "$prestation.description" }, sum: { $sum: "$price" }, avg: { $avg: "$price" }, count: { $sum: 1 } } }, { $sort: { description: 1 ,"_id.year":1} }, { $project: { date: "$date", prestation_id: "$_id.id",date:"$_id.year", description: 1, sum: 1, avg: 1, count: 1, _id: 0 } }] );
 ```
