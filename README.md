@@ -115,7 +115,7 @@ Ahmat Mahamat Ahmat
 
 ## Contacts
 
-Pour des questions, contactez [Gmail](mailto:ahmatmhtlouky@gmail.com).
+Pour des questions, contactez [ahmatmhtlouky@gmail.com](mailto:ahmatmhtlouky@gmail.com).
 
 ## License
 
