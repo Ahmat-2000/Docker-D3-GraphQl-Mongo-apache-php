@@ -39,7 +39,57 @@ docker exec -i mongo-dev sh -c 'mongoimport -d bda -c sales --authenticationData
 - **Mongo Express (Interface d'administration MongoDB):** [http://localhost:8081](http://localhost:8081).
 
 ## Structure du Projet
+# Nom de Votre Projet
 
+Bienvenue dans le projet **Nom de Votre Projet**. Ce dépôt contient les sources pour le backend GraphQL et l'interface utilisateur.
+
+## Structure du Projet
+
+```plaintext
+.
+├── README.md
+├── graphql
+│   ├── Dockerfile
+│   ├── index.js
+│   ├── model.graphql
+│   ├── package-lock.json
+│   ├── package.json
+│   └── resolvers.js
+├── stack.yml
+├── ui
+│   ├── Ahmed-memar.jpg
+│   ├── Moi.jpg
+│   ├── bootstrap-5.3.2-dist
+│   │   ├── css
+│   │   │   └── bootstrap.css
+│   │   └── js
+│   │       └── bootstrap.js
+│   ├── css
+│   │   ├── colorbrewer.css
+│   │   ├── style.css
+│   │   └── test.js
+│   ├── data
+│   │   ├── countries.json
+│   │   ├── departments.json
+│   │   ├── population.csv
+│   │   ├── population.json
+│   │   └── sales.bson
+│   ├── departements.html
+│   ├── france.html
+│   ├── index.html
+│   ├── js
+│   │   ├── barChart.js
+│   │   ├── d3.min.js
+│   │   ├── d3.v7.min.js
+│   │   ├── multiLineChart.js
+│   │   ├── queries.js
+│   │   └── simpleVisualisation.js
+│   ├── pirate.svg
+│   ├── prestation.html
+│   ├── regions.html
+│   └── sequence.png
+└── utile.md
+```
 - **graphql/:** Contient les fichiers GraphQL et le code associé.
 - **ui/:** Contient le code source du front-end, y compris les fichiers HTML, CSS, JavaScript, et les données.
   - **data/:** Dossier pour stocker les données.
