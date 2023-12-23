@@ -57,6 +57,10 @@ Ce projet est une application web de visualisation de données utilisant D3.js p
 
 Ahmat Mahamat Ahmat
 
+## Contacts
+
+Pour des questions, contactez [Gmail](ahmatmhtlouky@gmail.com).
+
 ## License
 
 Ce projet est en open source sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
