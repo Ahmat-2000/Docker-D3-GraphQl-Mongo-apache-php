@@ -66,4 +66,4 @@ Pour des questions, contactez [Gmail](mailto:ahmatmhtlouky@gmail.com).
 
 ## License
 
-Ce projet est en open source sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+Ce projet est en open source
