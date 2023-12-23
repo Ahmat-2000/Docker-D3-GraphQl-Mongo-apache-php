@@ -25,36 +25,38 @@ Ce projet est une application web de visualisation de données utilisant D3.js p
 
 1. **Cloner le Projet**
 2. **Configurer l'Environnement Docker**
-    - docker-compose -f stack.yml up -d --build
-    - Importer les Données dans MongoDB
-      docker exec -i mongo-dev sh -c 'mongoimport -d bda -c sales --authenticationDatabase admin -u root -p example' < ui/data/sales.bson
+   docker-compose -f stack.yml up -d --build
+3. **Importer les Données dans MongoDB**
+   docker exec -i mongo-dev sh -c 'mongoimport -d bda -c sales --authenticationDatabase admin -u root -p example' < ui/data/sales.bson
 
-# Accéder à l'Application
-    Front-end: Ouvrez votre navigateur et allez à http://localhost
-    Back-end GraphQL: http://localhost:4000
-    Mongo Express (Interface d'administration MongoDB): http://localhost:8081
+## Accéder à l'Application
 
-Structure du Projet
+- **Front-end:** Ouvrez votre navigateur et allez à [http://localhost](http://localhost).
+- **Back-end GraphQL:** [http://localhost:4000](http://localhost:4000).
+- **Mongo Express (Interface d'administration MongoDB):** [http://localhost:8081](http://localhost:8081).
 
-    frontend/: Contient le code source du front-end.
-    backend/: Contient le code source du back-end (GraphQL).
-    docker-compose.yml: Configuration Docker pour les conteneurs.
-    data/: Dossier pour stocker les données (si applicable).
-    scripts/: Scripts utiles (si applicable).
+## Structure du Projet
 
-Contribuer
+- **graphql/:** Contient les fichiers GraphQL et le code associé.
+- **ui/:** Contient le code source du front-end, y compris les fichiers HTML, CSS, JavaScript, et les données.
+  - **data/:** Dossier pour stocker les données.
+  - **js/:** Dossier pour les scripts JavaScript.
+  - **css/:** Dossier pour les fichiers CSS.
+- **stack.yml:** Configuration Docker pour les conteneurs.
+- **utile.md:** Documentation ou informations utiles supplémentaires.
 
-    Forkez le projet
-    Créez votre branche (git checkout -b feature/ma-fonctionnalite)
-    Committez vos changements (git commit -am 'Ajouter une nouvelle fonctionnalité')
-    Pushez vers la branche (git push origin feature/ma-fonctionnalite)
-    Ouvrez une Pull Request
+## Contribuer
 
-Auteur
+1. Forkez le projet.
+2. Créez votre branche (`git checkout -b feature/ma-fonctionnalite`).
+3. Committez vos changements (`git commit -am 'Ajouter une nouvelle fonctionnalité'`).
+4. Pushez vers la branche (`git push origin feature/ma-fonctionnalite`).
+5. Ouvrez une Pull Request.
+
+## Auteur
 
 Ahmat Mahamat Ahmat
-License
 
-Ce projet est en open source sous licence MIT - voir le fichier LICENSE pour plus de détails.
+## License
 
-
+Ce projet est en open source sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
