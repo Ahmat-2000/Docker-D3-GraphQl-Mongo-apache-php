@@ -1,7 +1,3 @@
-# Il suffit d'utiliser ces deux commandes
-docker-compose -f stack.yml up -d --build <br>
-docker exec -i mongo-dev sh -c 'mongoimport -d bda -c sales --authenticationDatabase admin -u root -p example' < ui/data/sales.bson
-
 # Visualisation de Données
 
 ## Description
@@ -16,10 +12,6 @@ Ce projet est une application web de visualisation de données utilisant D3.js p
   - Bootstrap
 
 - **Back-end:**
-  - GraphQL
-  - MongoDB
-
-- **Environnement Docker:**
   - GraphQL (Port 4000)
   - MongoDB (Port 2717)
   - Mongo Express (Port 8081)
@@ -27,10 +19,9 @@ Ce projet est une application web de visualisation de données utilisant D3.js p
 
 ## Prérequis
 - [Docker](https://www.docker.com/get-started)
+- Docker-compoose
 
 ## Installation et Utilisation
 
 1. **Cloner le Projet**
-   ```bash
-   git clone https://github.com/ahmatmahamatahmat/visualisation-de-donnees.git
-   cd visualisation-de-donnees
+
