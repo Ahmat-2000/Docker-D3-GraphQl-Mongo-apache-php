@@ -18,6 +18,7 @@ mongosh --authenticationDatabase admin -u root -p example
 ```bash
 docker-compose -f stack.yml up -d
 ```
+## Pour créer les images et démarrer la pile de containers
 ```bash
 docker-compose -f stack.yml up -d --build
 ```
