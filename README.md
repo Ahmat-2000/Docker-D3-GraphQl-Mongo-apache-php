@@ -114,7 +114,7 @@ Bienvenue dans le projet **Nom de Votre Projet**. Ce dépôt contient les source
 
 Ahmat Mahamat Ahmat
 
-Master 1 cybersécurité à l'université de Caen
+Master 2 cybersécurité à l'université de Caen
 
 ## Contacts
 
