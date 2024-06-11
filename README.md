@@ -123,4 +123,4 @@ Pour des questions, contactez [ahmatmhtlouky@gmail.com](mailto:ahmatmhtlouky@gma
 
 ## License
 
-Ce projet est en open source
+Voir la licence MIT
