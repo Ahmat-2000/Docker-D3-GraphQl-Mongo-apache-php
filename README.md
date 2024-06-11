@@ -1,9 +1,8 @@
 # Visualisation de Données
 
-## Description
-Bienvenue dans le projet Visualisation de Données. 
-Cette application web est dédiée à la visualisation de données, exploitant D3.js pour la partie frontend, GraphQL pour le backend, et 
-d'autres technologies variées. Le dépôt est conçu pour fonctionner de manière optimale dans un environnement Docker, avec des conteneurs dédiés pour GraphQL, MongoDB, Mongo Express, et Apache-PHP Server.
+Ce projet propose une application web puissante pour créer des visualisations de données riches et interactives. 
+Grâce à son architecture Docker optimisée et à ses technologies de pointe, l'application offre une expérience 
+utilisateur fluide et performante.
 
 ## Technologies Utilisées
 - **Front-end:**
